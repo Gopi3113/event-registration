@@ -1,0 +1,83 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #ffffff;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #1b6ef3;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #222;
+}
+
+input, textarea, select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #1b6ef3;
+  border: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0f4dc4;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  background-color: #1b6ef3;
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  background: #fafafa;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
