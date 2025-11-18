@@ -3,7 +3,7 @@ import axios from "axios";
 import { QRCodeSVG } from "qrcode.react";
 
 function Register() {
-  const backendUrl = "http://localhost:5000";
+  const backendUrl = "https://practical-peace-production.up.railway.app";
 
   const [events, setEvents] = useState([]);
   const [name, setName] = useState("");

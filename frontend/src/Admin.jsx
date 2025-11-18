@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Admin() {
-  const backendUrl = "http://localhost:5000";
+  const backendUrl = "https://practical-peace-production.up.railway.app";
 
   const [attendees, setAttendees] = useState([]);
   const [qrInput, setQrInput] = useState("");

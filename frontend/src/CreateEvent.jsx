@@ -7,7 +7,8 @@ function CreateEvent() {
   const [description, setDescription] = useState("");
   const [message, setMessage] = useState("");
 
-  const backendUrl = "http://localhost:5000";
+  const backendUrl = "https://practical-peace-production.up.railway.app";
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
