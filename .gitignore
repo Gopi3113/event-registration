@@ -1,0 +1,17 @@
+# node
+node_modules/
+npm-debug.log
+.env
+
+# react
+frontend/node_modules/
+frontend/dist/
+
+# backend
+backend/node_modules/
+
+# OS
+.DS_Store
+
+# VS Code
+.vscode/
